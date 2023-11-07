@@ -1,0 +1,106 @@
+.header_wrap {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: #47544ee0;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    display: block;    
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-style: italic
+}
+.center{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 3;
+    font-size: 3rem
+}
+.navigation{ /*настраиваем расположение и адаптивность */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.navigation a{ /*настраиваем именно кнопки */
+     text-decoration: none; 
+     color: white;
+     box-shadow: 5px 5px 50px black;
+    
+}
+main{
+    color: white;
+    background: #47544ee0;
+}
+.club{
+    color: white;
+    width:95%;
+    text-align:center;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    font-family: TT Norms,Segoe UI,Tahoma,Arial,sans-serif;
+    font-variant-ligatures: none;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+}
+.responce_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.responce_card{
+    border-style: solid;
+    box-shadow: 10px 5px 20px #B0C4DE;
+    border-radius: 20px; /*закругление рамки */
+    font-size: large;
+    margin: 20px; /*расстояние */
+    padding: 15px; /*отступ от рамки */
+    max-width: 250px;
+    min-width: 300px;
+}
+.photo{
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.achievements{
+    width:95%;
+    text-align:center;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    background-attachment: fixed;
+}
+.footer{
+    background: #47544ee0;
+}
+.photo_vk{
+    
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 50px; 
+}
+.photo_socials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
